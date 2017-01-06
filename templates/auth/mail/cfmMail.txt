@@ -1,0 +1,4 @@
+hello
+Welcome to Flasky
+Please click  on the follow link To Confirm  Your Email!
+{{ url_for('auth.confirm_mail',token=token,_external=True) }}

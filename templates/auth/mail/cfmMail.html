@@ -1,0 +1,8 @@
+<h1>hello</h1>
+<h2>Welcome to Flasky</h2>
+<h2>Please click  on the follow link To Confirm Your Email!</h2>
+<h2>
+    <a href="{{ url_for('auth.confirm_mail',token=token,_external=True) }}">
+        {{ url_for('auth.confirm_mail',token=token,_external=True) }}"
+    </a>
+</h2>
